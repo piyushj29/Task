@@ -1,0 +1,4 @@
+n= float(input())
+F=(1.8*n+32)
+print(round(F,2))
+
