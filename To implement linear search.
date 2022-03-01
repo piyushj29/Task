@@ -1,0 +1,19 @@
+def search(arr,x):
+    for i in range(len(arr)):
+        if arr[i] == x:
+            return("element found at index",i)
+    
+        return -1
+
+
+
+N=int(input()) # the element to be searched
+L=int(input()) # length of array
+list=[]
+for i in range(0,L):
+    ele=int(input())
+    list.append(ele)
+
+print(list)
+
+print(search(list,N))
