@@ -1,0 +1,16 @@
+def Max(arr):
+    max = arr[0]
+    for x in arr:
+        if x > max :
+             max = x
+    return max
+  
+L=int(input())
+list=[]
+for i in range(0,L):
+    ele=int(input())
+    list.append(ele)
+
+print(list)
+
+print("Largest element is:", Max(list))
