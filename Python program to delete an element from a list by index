@@ -1,0 +1,11 @@
+N=int(input()) #index at which element has to be deleted
+size=int(input()) # size of array
+arr=[]
+
+for j in range(0,size):
+    ele=int(input())
+    arr.append(ele)
+    
+    
+arr.pop(N)
+print(arr)
