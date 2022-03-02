@@ -1,0 +1,9 @@
+dict={}
+N=int(input("")) #no of key:value pairs to be entered
+
+for i in range(N):
+    k=input()   #enter key
+    v=input()   #enter value
+    dict.update({k:v})
+    
+print(dict)
